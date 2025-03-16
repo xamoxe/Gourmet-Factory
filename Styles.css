@@ -1,0 +1,144 @@
+/* Fondo negro para toda la página */
+body {
+    background-color: #9c9c9c; /* Color de fondo negro */
+    margin: 0; /* Elimina los márgenes del cuerpo */
+    padding: 0; /* Elimina los rellenos del cuerpo */
+    font-family: Arial, sans-serif; /* Cambia la fuente */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el encabezado */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño del título */
+    margin: 0; /* Sin márgenes */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Sin padding */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espaciado entre enlaces */
+}
+
+nav ul li a {
+    color: #ffffff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para la sección del mensaje */
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para la sección */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados en el contenedor del mensaje */
+}
+
+/* Estilos para el resto de secciones */
+section {
+    padding: 40px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el botón */
+.message button {
+    font-size: 24px;  /* Aumenta el tamaño de la fuente del botón */
+    padding: 15px 30px;  /* Aumenta el tamaño del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quitar borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-top: 20px; /* Añadir espacio arriba del botón */
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+.message button:hover {
+    background-color: #0056b3; /* Cambia el color cuando se pasa el ratón */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el pie de página */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espacio interno */
+    position: relative; /* Permite que se posicione al final de la página */
+    bottom: 0; /* Fija al fondo */
+    width: 100%; /* Ancho completo */
+}
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el encabezado */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
+}
+
+.header-content {
+    display: flex; /* Usar flexbox para alinear el logo y el título */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.logo {
+    width: 70px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-right: 30px; /* Espacio entre el logo y el título */
+}
+.ig{
+    width: 15px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-right: 05px; /* Espacio entre el logo y el título */
+}
+.carrusel{ 
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.Elias img {
+    width: 300px; /* Ajusta este valor al tamaño que prefieras */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin: 15px; /* Opcional: agrega margen para separación */
+}
+.Carlos img {
+    width: 300px; /* Ajusta este valor al tamaño que prefieras */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin: 15px; /* Opcional: agrega margen para separación */
+}
+.Aitor img {
+    width: 300px; /* Ajusta este valor al tamaño que prefieras */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin: 15px; /* Opcional: agrega margen para separación */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño del título */
+    margin: 0; /* Sin márgenes */
+}
+.carrusel {
+    display: flex; /* Alinea las imágenes en fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-bottom: 30px; /* Espacio entre el carrusel y la sección de contacto */
+}
+
+.contact {
+    margin-bottom: 30px; /* Añade espacio debajo del contacto */
+    padding: 10px; /* Espaciado interno adicional */
+    border-top: 2px solid #ffffff; /* Línea divisoria opcional */
+}
+
+footer {
+    margin-top: 20px; /* Espacio entre el contacto y el pie de página */
+}
